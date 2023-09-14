@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 16px; /* Adjust the gap between items */
+    padding: 16px; /* Add padding to the container as needed */
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0; /* Background color for each item */
+    padding: 16px; /* Add padding to each item as needed */
+    text-align: center; /* Center-align text */
+    border: 1px solid #ddd; /* Optional: Add borders to the items */
+  }
