@@ -24,8 +24,12 @@ class App extends React.Component {
         else if ( _int % 10 === 3 ) {
             _pst = 'rd';
         }
+
+        else{
+            _pst = 'th';
+        }
         
-        return e + _pst;
+        return _int + _pst;
     }
     else {
         return e;
